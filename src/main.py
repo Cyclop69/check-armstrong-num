@@ -7,7 +7,7 @@ def armstrong(a):
     list.append(a)
   b=0
   for i in list:
-    b=b+i**3
+    b=b+i**(len(list))
   return b
    
 
